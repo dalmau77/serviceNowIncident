@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import App from './Incident'
 import axios from 'axios'
 
 axios.defaults.headers.put["Content-Type"] = "application/json"
