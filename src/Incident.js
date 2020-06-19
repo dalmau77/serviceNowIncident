@@ -71,12 +71,10 @@ class Incident extends Component {
     }, () => {
         this.receivedData()
     });
-
 };
   componentDidMount() {
     this.receivedData()
   }
-
 
   render() {
     return (
@@ -106,6 +104,5 @@ class Incident extends Component {
     )
   }
 }
-
 
 export default Incident;
