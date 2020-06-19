@@ -23,12 +23,10 @@ This completes development environment setup and you can run the application by 
 
 > User name and password required for development environment only. You don't need to provide credentials when deploying the app into ServiceNow.
 
-## ServiceNow deployment
-To deploy the application into ServiceNow you need to perform the following steps:
-1. Build the application by executing `npm run build`.
-2. Save JS and CSS files from Build folder as _Style Sheets_ in ServiceNow.
-3. Save HTML file from Build folder as a UI page. Update references to JS/CSS correspondingly.
+# How to use App
 
-You can find more details in [this article](https://medium.com/@pishchulin/react-application-in-servicenow-8bdbb1e69c0c).
+1. Once running go to your localhost and all the incidents shall be displayed.
+2. Click on the View Incident button for any incident and a modal shall pop up displaying the incident you clicked on.
+3. Click close to continue browsing the other Incidents
 
 
